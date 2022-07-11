@@ -23,7 +23,7 @@
 
 **0. Simple helper function**
 
-File: [0-main.py](0-main.py/) - [0-simple_helper_function.py](0-simple_helper_function.py/)
+File:  [0-simple_helper_function.py](0-simple_helper_function.py/)
 
 Write a function named index_range that takes two integer arguments page and page_size.
 
@@ -59,7 +59,7 @@ bob@dylan:~$
 
 **1. Simple pagination**
 
-File: [1-main.py](1-main.py/) - [1-simple_pagination.py](1-simple_pagination.py/)
+File:  [1-simple_pagination.py](1-simple_pagination.py/)
 
 Copy index_range from the previous task and the following class into your code
 
@@ -159,7 +159,7 @@ bob@dylan:~$
 
 **2. Hypermedia pagination**
 
-File: [2-main.py](2-main.py/) - [2-hypermedia_pagination.py](2-hypermedia_pagination.py/)
+File:  [2-hypermedia_pagination.py](2-hypermedia_pagination.py/)
 
 Replicate code from the previous task.
 
@@ -209,7 +209,7 @@ bob@dylan:~$
 
 **3. Deletion-resilient hypermedia pagination**
 
-File: [3-main.py](3-main.py/) - [3-hypermedia_del_pagination.py](3-hypermedia_del_pagination.py/)
+File:  [3-hypermedia_del_pagination.py](3-hypermedia_del_pagination.py/)
 
 The goal here is that if between two queries, certain rows are removed from the dataset, the user does not miss items from dataset when changing page.
 
