@@ -16,14 +16,14 @@
 
 ### Setup: Popular_Baby_Names.csv
 
-[use this data file for your project](https://holbertonintranet.s3.amazonaws.com/uploads/misc/2020/5/7d3576d97e7560ae85135cc214ffe2b3412c51d7.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201027T202422Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=50c43c32e1f925db73ba629a71cf2acf294e1fb95bc5ac26660ed834012ac216)
+[use this data file for your project]([https://holbertonintranet.s3.amazonaws.com/uploads/misc/2020/5/7d3576d97e7560ae85135cc214ffe2b3412c51d7.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20201027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201027T202422Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=50c43c32e1f925db73ba629a71cf2acf294e1fb95bc5ac26660ed834012ac216](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2020/5/7d3576d97e7560ae85135cc214ffe2b3412c51d7.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20220711%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220711T155344Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=d2a58baa91d98c51f3634b7fa422781390cfce626f6301237b2683fc3c2f3074))
 
 
 ## Task
 
 **0. Simple helper function**
 
-File: [0-main.py](0-main.py/) - [0-simple_helper_function.py](0-simple_helper_function.py/)
+File:  [0-simple_helper_function.py](0-simple_helper_function.py/)
 
 Write a function named index_range that takes two integer arguments page and page_size.
 
@@ -59,7 +59,7 @@ bob@dylan:~$
 
 **1. Simple pagination**
 
-File: [1-main.py](1-main.py/) - [1-simple_pagination.py](1-simple_pagination.py/)
+File:  [1-simple_pagination.py](1-simple_pagination.py/)
 
 Copy index_range from the previous task and the following class into your code
 
@@ -159,7 +159,7 @@ bob@dylan:~$
 
 **2. Hypermedia pagination**
 
-File: [2-main.py](2-main.py/) - [2-hypermedia_pagination.py](2-hypermedia_pagination.py/)
+File:  [2-hypermedia_pagination.py](2-hypermedia_pagination.py/)
 
 Replicate code from the previous task.
 
@@ -209,7 +209,7 @@ bob@dylan:~$
 
 **3. Deletion-resilient hypermedia pagination**
 
-File: [3-main.py](3-main.py/) - [3-hypermedia_del_pagination.py](3-hypermedia_del_pagination.py/)
+File:  [3-hypermedia_del_pagination.py](3-hypermedia_del_pagination.py/)
 
 The goal here is that if between two queries, certain rows are removed from the dataset, the user does not miss items from dataset when changing page.
 
