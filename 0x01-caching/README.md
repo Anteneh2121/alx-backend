@@ -1,6 +1,5 @@
 ##  Caching
 
-﻿![](Top.png)
 
 
 # Requirements
@@ -66,7 +65,7 @@ class BaseCaching():
 
 **0. Basic dictionary**
 
-File: [0-main.py](0-main.py/) - [0-basic_cache.py](0-basic_cache.py/)
+File: [0-basic_cache.py](0-basic_cache.py/)
 
 Create a class BasicCache that inherits from BaseCaching and is a caching system:
 
@@ -130,7 +129,7 @@ guillaume@ubuntu:~/0x03$
 
 **1. FIFO caching**
 
-File: [1-main.py](1-main.py/) - [1-fifo_cache.py](1-fifo_cache.py/)
+File: [1-fifo_cache.py](1-fifo_cache.py/)
 
 Create a class FIFOCache that inherits from BaseCaching and is a caching system:
 
@@ -194,7 +193,7 @@ guillaume@ubuntu:~/0x03$
 
 **2. LIFO Caching**
 
-File: [2-main.py](2-main.py/) - [2-lifo_cache.py](2-lifo_cache.py/)
+File: [2-lifo_cache.py](2-lifo_cache.py/)
 
 Create a class LIFOCache that inherits from BaseCaching and is a caching system:
 
@@ -265,7 +264,7 @@ guillaume@ubuntu:~/0x03$
 
 **3. LRU Caching**
 
-File: [3-main.py](3-main.py/) - [3-lru_cache.py](3-lru_cache.py/)
+File: [3-lru_cache.py](3-lru_cache.py/)
 
 Create a class LRUCache that inherits from BaseCaching and is a caching system:
 
@@ -376,7 +375,7 @@ guillaume@ubuntu:~/0x03$
 
 **4. MRU Caching**
 
-File: [4-main.py](4-main.py/) - [4-mru_cache.py](4-mru_cache.py/)
+File: [4-mru_cache.py](4-mru_cache.py/)
 
 Create a class MRUCache that inherits from BaseCaching and is a caching system:
 
@@ -487,7 +486,7 @@ guillaume@ubuntu:~/0x03$
 
 **5. LFU Caching**
 
-File: [100-main.py](100-main.py/) - [100-lfu_cache.py](100-lfu_cache.py/)
+File: [100-lfu_cache.py](100-lfu_cache.py/)
 
 Create a class LFUCache that inherits from BaseCaching and is a caching system:
 
